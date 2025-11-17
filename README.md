@@ -41,3 +41,68 @@ Common metrics for evaluation: R² score, Mean Squared Error (MSE).
 
 
 <img width="270" height="148" alt="image" src="https://github.com/user-attachments/assets/89043557-a6eb-40eb-9027-63383a7c8317" />
+
+#Lasso Regression (L1 Regularization)
+
+
+Definition:
+
+Lasso Regression is a linear regression technique with L1 regularization.
+
+It adds a penalty to the regression coefficients to reduce overfitting and can set some coefficients exactly to zero, effectively performing feature selection.
+
+EQUATION :
+
+cost Function: RSS+αj=1∑n​∣bj​∣
+
+
+Where:
+
+RSS = Residual Sum of Squares
+
+𝑏j= coefficients of features
+
+α = regularization strength (larger 
+
+α → more shrinkage)
+
+Lasso helps when you have many features and want to remove irrelevant ones
+
+KEY POINT:
+
+Penalizes absolute value of coefficients (L1 penalty).
+
+Can shrink some coefficients to zero, useful for feature selection.
+
+Reduces overfitting and improves model generalization.
+
+#Ridge Regression (L2 Regularization)
+
+
+Definition:
+
+Ridge Regression is a type of linear regression with L2 regularization.
+
+It adds a penalty to the squared magnitude of coefficients to reduce overfitting.
+
+Unlike Lasso, Ridge does not set coefficients to zero, but shrinks them toward zero.
+
+Works for multiple linear regression problems.
+
+Key Points:
+
+Penalizes squared coefficients (L2 penalty).
+
+Reduces overfitting and improves model stability.
+
+Useful when you have many correlated features.
+
+Does not remove features (all coefficients remain >0).
+
+Lasso vs Ridge (Coefficient Distribution)
+Feature        	Lasso (L1)	                              ____________             Ridge (L2)
+Coefficients	:  Some can be exactly 0 → feature selection	____________               Shrinks all, but none become exactly 0
+Regularization	 :   Absolute value penalty	   ____________                            Squared value penalty
+Use Case	   :  When feature selection is needed   ____________                          When features are highly correlated
+Graph/Distribution  :	Sparse coefficients	      ____________                         Smooth, small coefficients
+
