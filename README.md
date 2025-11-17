@@ -99,14 +99,6 @@ Useful when you have many correlated features.
 
 Does not remove features (all coefficients remain >0).
 
-Lasso vs Ridge (Coefficient Distribution)
-Feature        	Lasso (L1)	                                                                                 Ridge (L2)
-Coefficients	:  Some can be exactly 0 → feature se                                         Shrinks all, but none become exactly 0
-
-
-Regularization	 :   Absolute value penalty	                                                            Squared value penalty
-
-
 Use Case	   :  When feature selection is needed                                                    When features are highly correlated
 
 
