@@ -104,3 +104,22 @@ Use Case	   :  When feature selection is needed                                 
 
 Graph/Distribution  :	Sparse coefficients	                                                                 Smooth, small coefficients
 
+
+
+# Polynomial-Regrssion
+
+
+Polynomial Regression — Simple Explanation
+
+Polynomial Regression is an extension of Linear Regression where we model the relationship between variables as an nth-degree polynomial instead of a straight line.
+
+🔹 Why we use Polynomial Regression?
+
+Because real-world data is often non-linear.
+Polynomial regression helps in:
+
+Curve fitting
+
+Capturing non-linear patterns
+
+Making better predictions than simple linear regression for curved data
