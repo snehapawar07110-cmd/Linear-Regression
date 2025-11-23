@@ -1,5 +1,9 @@
-#Supervised Learning ML
+# Supervised Learning ML
+
+
  Linear-Regression
+
+ 
 Simple Linear Regression [Input-Output Sowing Linear Relation(SLR)]
 
 
