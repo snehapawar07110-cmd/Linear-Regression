@@ -106,7 +106,7 @@ Graph/Distribution  :	Sparse coefficients	                                      
 
 
 
-# Polynomial-Regrssion
+Polynomial-Regrssion
 
 
 Polynomial Regression — Simple Explanation
